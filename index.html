@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sorteador</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <header id="headerId">
+            <img src="./assets/sort.png" alt="">
+        </header>
+
+        <main id="mainId">
+            <span class="frase">Sortear um número entre...</span>
+
+            <div class="containerInputs">
+                <input id="from" autofocus type="number" placeholder="Número inicial">
+                <span class="and">e</span>
+                <input id="to" type="number" placeholder="Número final">
+            </div>
+
+            <button id="btnSortear">Sortear</button>
+        </main>
+
+        <div id="newWindowId" class="newWindow setNewWindowInvisible">
+            <span class="textSorteado">O numero sorteado foi...</span>
+            <div id="displaySorteado" class="containerNumeroSorteado"></div>
+            <button id="btnNovoSorteio" class="novoSorteio">Novo sorteio</button>
+        </div>
+
+    </body>
+
+    <script src="index.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
